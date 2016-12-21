@@ -1,6 +1,6 @@
 <?php
  // DB connection info
- $host = "localhost";
+ $host = "us-cdbr-azure-southcentral-f.cloudapp.net";
  $user = "ba0061cdc83a6e";
  $pwd = "5f4ea273";
  $db = "registration";

@@ -34,8 +34,10 @@
  try {
      $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
      $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+     echo "connecion successful";
  }
  catch(Exception $e){
+    echo "db connecion fail";
      die(var_dump($e));
  }
 
@@ -54,6 +56,7 @@ if(!empty($_POST)) {
      $stmt->execute();
  }
  catch(Exception $e) {
+    echo "insertion fail";
      die(var_dump($e));
  }
  echo "<h3>Your're registered!</h3>";

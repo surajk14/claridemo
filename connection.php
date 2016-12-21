@@ -3,7 +3,7 @@
  $host = "us-cdbr-azure-southcentral-f.cloudapp.net";
  $user = "ba0061cdc83a6e";
  $pwd = "5f4ea273";
- $db = "registration";
+ $db = "acsm_84b800773040647";
  try{
      $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
      $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );

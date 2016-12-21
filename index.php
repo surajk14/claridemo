@@ -27,8 +27,8 @@
 // DB connection info
  // Database=acsm_84b800773040647;Data Source=us-cdbr-azure-southcentral-f.cloudapp.net;User Id=ba0061cdc83a6e;Password=5f4ea273
  $host = "localhost";
- $user = "ba0061cdc83a6e";
- $pwd = "5f4ea273";
+ $user = "root";
+ $pwd = "clarion";
  $db = "registration";
  // Connect to database.
  try {
